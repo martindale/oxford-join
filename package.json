@@ -1,0 +1,36 @@
+{
+  "name": "oxford-join",
+  "version": "0.0.1",
+  "description": "Join an array into a string, separated with an Oxford comma.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "coverage": "istanbul cover _mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martindale/oxford-join.git"
+  },
+  "keywords": [
+    "utility",
+    "text",
+    "join",
+    "grammar",
+    "english",
+    "style"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martindale/oxford-join/issues"
+  },
+  "homepage": "https://github.com/martindale/oxford-join",
+  "devDependencies": {
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.4.0",
+    "mocha": "^2.3.4"
+  }
+}

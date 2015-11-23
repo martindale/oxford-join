@@ -8,7 +8,7 @@ Join an array into a string, separated with an Oxford comma.
 var join = require('oxford-join');
 var invitations = ['the strippers', 'JFK', 'Stalin'];
 var text = 'We invited ' + join(invitations) + '.';
-> 'We invited the strippers, JFK, and Stalin.'.
+> 'We invited the strippers, JFK, and Stalin.'
 ```
 
 ## Contributions

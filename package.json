@@ -1,6 +1,6 @@
 {
   "name": "oxford-join",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Join an array into a string, separated with an Oxford comma.",
   "main": "index.js",
   "directories": {

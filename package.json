@@ -24,6 +24,7 @@
   ],
   "author": "Eric Martindale",
   "license": "MIT",
+  "readme": "README.md",
   "bugs": {
     "url": "https://github.com/martindale/oxford-join/issues"
   },

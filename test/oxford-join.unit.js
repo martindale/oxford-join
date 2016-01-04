@@ -19,5 +19,9 @@ describe('oxfordJoin', function() {
       var invitations = [];
       assert.equal('', oxfordJoin(invitations));
     });
+    it('should return handle non-array items correctly.', function () {
+      var test = {};
+      assert.throws(oxfordJoin.bind(null, test), Error);
+    });
   });
 });

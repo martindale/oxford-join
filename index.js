@@ -1,8 +1,6 @@
 function oxfordJoin(array) {
   if (!(array instanceof Array)) {
-    array = _.toArray(array).map(function(item) {
-      return item.name;
-    });
+    throw new Error('You must provide an array.');
   }
 
   var string = '';
